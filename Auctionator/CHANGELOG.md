@@ -1,12 +1,13 @@
 # Auctionator
 
-## [10.1.2](https://github.com/Auctionator/Auctionator/tree/10.1.2) (2023-05-14)
-[Full Changelog](https://github.com/Auctionator/Auctionator/compare/10.1.1...10.1.2) 
+## [10.1.8](https://github.com/Auctionator/Auctionator/tree/10.1.8) (2023-06-21)
+[Full Changelog](https://github.com/Auctionator/Auctionator/compare/10.1.7...10.1.8) 
 
-- Mainline: CraftingInfo: Update enchants to items list for 10.1.0  
-- [Fixes #1385] Temporary shopping lists won't allow saving  
-- [#1376] Mainline: CraftingInfo: Show cheapest quality cost in customer orders  
-- Classic: Fix crafting cost/profit position if other addons move frames around  
-- Mainline: Update wording for config option  
-- [Fixes #1376] Mainline: CraftingInfo: Optional cheapest qualities cost  
-- Mainline: Remove unnecessary SurfaceArgs call  
+- Wrath: Update toc for 3.4.2  
+- Shopping: Fix import error when using thousands of item ids for the list  
+- Shopping: Refresh buy view if owned auction gets bid applied  
+- Shopping: Fix bid colour not showing on buy screens  
+- Shopping: Highlight owned items with bids differently on buy screens  
+- Cancelling: Adjust shade of purple in bid rows  
+- Cancelling: Change bid highlight to purple instead of green  
+- Mainline: Cancelling: Update view when active auctions have a bid placed  
