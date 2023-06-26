@@ -50,7 +50,6 @@ function RSGroupPinMixin:OnAcquired(POI, dataProvider)
 	end
 	self.IconTexture:SetAtlas(POI.iconAtlas)
 	self:SetPosition(POI.x, POI.y);
-	self:SetPassThroughButtons("MiddleButton");
 end
 
 function RSGroupPinMixin:OnMouseEnter()
