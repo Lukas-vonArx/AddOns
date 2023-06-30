@@ -1,13 +1,19 @@
 # Auctionator
 
-## [10.1.8](https://github.com/Auctionator/Auctionator/tree/10.1.8) (2023-06-21)
-[Full Changelog](https://github.com/Auctionator/Auctionator/compare/10.1.7...10.1.8) 
+## [10.1.9](https://github.com/Auctionator/Auctionator/tree/10.1.9) (2023-06-28)
+[Full Changelog](https://github.com/Auctionator/Auctionator/compare/10.1.8...10.1.9) 
 
-- Wrath: Update toc for 3.4.2  
-- Shopping: Fix import error when using thousands of item ids for the list  
-- Shopping: Refresh buy view if owned auction gets bid applied  
-- Shopping: Fix bid colour not showing on buy screens  
-- Shopping: Highlight owned items with bids differently on buy screens  
-- Cancelling: Adjust shade of purple in bid rows  
-- Cancelling: Change bid highlight to purple instead of green  
-- Mainline: Cancelling: Update view when active auctions have a bid placed  
+- [Fixes #1402] Selling: Bag: Item buttons sized wrong on classic era  
+- Selling: Fix error when 0 quantity item is selected in some cases  
+- Selling: Favourites: Restore placing items with 0 in bags at the end  
+- Mainline: Selling: Fix back button when prev item has been posted  
+- Cancelling: Option of showing as undercut only if enough items undercut yours  
+- Selling: Bag: Move onto next favourite even if 0 available  
+- Classic: Selling: Fix item count sometimes being wrong when going back in bag  
+- Cancelling: Only run undercut scan on currently filtered items  
+- Selling: Bag: Change selection indicator to orange  
+- Selling: Bag: Set prevItem field on items to nil if no previous item  
+- [Fixes #1165] Selling: Add shortcut option to go to previously selected bag item  
+- Selling: Fix item border showing when no item selected  
+- Selling: Bag: Clear item highlight when tab closed  
+- Selling: Highlight currently selected item in the bag view  
